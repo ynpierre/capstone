@@ -1,0 +1,302 @@
+body{
+	background-color: GhostWhite;
+}
+.colmarAcademyheader
+{
+	display: inline-flex;
+	padding-left: 24px;
+	align-items: center;
+ }
+.moveright{
+	display: inline-flex;
+	width: 1324px;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 18px;
+	font-family: Arial;
+}
+.rectSize{
+	width: 16px;
+	height: 64px;
+}	
+.colmar{
+	font-size: 18px;
+	font-family: Arial;
+	display: inline-flex;
+	align-items: center;
+	font-weight: bold;	
+}
+.academy
+{
+	font-size: 18px;
+	font-family: Arial;
+	display: inline-flex;
+	align-items: center;
+	color: grey;
+	font-weight: lighter;
+  }
+
+.bannerContainer{
+	display: inline-flex;
+	background-color: lightgrey;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 24px;
+	align-items: center;
+}
+.bannerText{
+	font-size: 72px;
+	font-family: Aharoni;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	padding-left: 40px;
+	color: charcol;
+}
+.bannerSubtext{
+	font-size: 32px;
+	font-family: Aharoni;
+	align-items: center;
+	justify-content: center;
+	padding-left: 40px;	
+	padding-bottom: 40px;
+	padding-top: 40px;
+	color: grey;
+}
+.button{
+ 	background-color: darkgrey;
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 450px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 40px;	
+    font-size: 30px;
+    font-weight: bold;
+}
+.bigImageWidth{
+	width: 90%;
+	height: auto;
+}
+.containerWidth{
+	width: 60%;
+	height: auto;	
+}
+/* Maintenace */
+.maintenance{
+	display: inline-flex;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 24px;
+	align-items: top;
+}
+.maintenanceCol1{
+	display: inline-block;
+}
+
+#maintenanceDisplayImg{
+	width: 35%;
+}
+
+.maintenanceCol2{
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 40px;
+	padding-bottom: 32px;
+	width: 423px;
+	height: auto;
+}
+.maintenanceText{
+	font-size: 52px;
+	font-family: Arial;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+}
+.maintenanceSubtext{
+	font-size: 32px;
+	font-family: Arial;
+	align-items: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.textTitle{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+.textNormal{
+	color: black;
+	font-family: serif;
+	font-size: 18px;
+}
+.textContainerCol2{
+	display: inline-flex;
+	align-items: center;
+	padding-bottom: 24px;
+}
+.readMore{
+	color: lightblue;
+	font-size: 24px;
+	font-weight: bold;	
+}
+.textBlock{
+	display: inline-block;
+	padding-left: 24px;
+}
+#lastMaintenanceRow{
+	background-color: lightgrey;
+	padding-top: 16px;
+	padding-left: 16px;
+}
+/* The Classes */
+.classesContainer
+{
+	display: inline-flex;
+	background-color: lightgrey;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 32px;	
+}
+.classesSubContainer
+{
+	background-color: white;
+	display: inline-flex;
+	flex-direction: row;
+	margin: 32px;
+}
+.containerTitle
+{
+	font-size: 42px;
+	font-family: Arial;
+	font-weight: bold;
+	align-items: center;
+	display: inline-block;
+	padding: 32px;
+}
+.titlePosition{
+	align-items: center;
+	text-align: center;
+	border: black solid 0px;
+}
+.classesTitle{
+	font-family: Arial;
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+}
+.classesCourse{
+	font-family: Arial;
+	font-size: 24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	color: grey;
+}
+.classesDescription{
+	font-family: Arial;
+	font-size: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	color: grey;
+}
+.classItem{
+	margin: 16px;
+}
+/* Thesis */
+.thesisContainer{
+	display: inline-flex;
+	background-color: white;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 32px;	
+	width: 1524px;
+}
+.thesisTitle
+{
+	background-color: GhostWhite;
+	display: block;
+	text-align: center;
+	font-size: 52px;
+	font-weight: bold;	
+	padding-top: 32px;
+}
+.thesisSubContainer
+{
+	background-color: GhostWhite;
+	display: inline-block;
+	 margin: 32px; 
+	align-items: top;
+}
+.thesis{
+	display: inline-block;
+	padding-bottom: 32px;
+	padding-left: 24px;
+	align-items: top;
+}
+
+#thesisisplayImg{
+	padding:16px;
+}
+
+.thesisFisma{
+	background-color: lightgrey;
+}
+.thesisNowThen{
+	background-color: GhostWhite;
+	display: inline-flex;
+}
+.thesisCol2{
+	display: inline-block;
+	margin-left: 16px;
+}
+.flex
+{
+	display: inline-flex;
+}
+.center{
+	align-content: center;
+	justify-content: center;
+}
+/*footer*/
+.lastcontainer{
+	display: block;
+	border: black solid 2px;
+}
+.footerleft{
+	display: inline-flex;
+	align-items:left;
+	padding-left: 24px;
+	border: black solid 2px;
+}
+.footerright{
+	display: inline-flex;
+	justify-content: flex-end;
+	border: red solid 2px;
+}
+	
+}
+@media only and (max-width: 700px){
+	.colmarAcademyheader{
+		display: none;
+		display: inline-block;
+	}
+	div.containerWidth{
+		display: none;
+	}
+	img.containerWidth{
+			display: none;
+		}
+}	
+
+
+
